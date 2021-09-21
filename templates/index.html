@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+{% endblock %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+<div class="content">
+<h1> ☕ Coffee and Wifi 💻</h1>
+<h3>Want to work in a Cafe but need power and Wifi ? </h3>
+<hr>
+<h3>Congrats! you are at right place.</h3>
+<h5>You've found the right place! Checkout my collection of cafes with data on power socket availability, wifi speed and coffee quality.</h5>
+<button type="button" class="btn btn-warning">Click Me!</button>
+</div>
+{% endblock %}
